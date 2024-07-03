@@ -24,4 +24,10 @@ public class Producte {
     public void setPreu(double preu) {
         this.preu = preu;
     }
+
+    @Override
+    public String toString() {
+        return "Ticket cistella de client: " +
+                "Producte" + nom + '\'' + preu + "€";
+    }
 }
