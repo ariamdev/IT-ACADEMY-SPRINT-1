@@ -19,25 +19,32 @@ public class Main {
 
         System.out.println("----------------------------------------------------------------");
 
-        //Exemple amb error:
+        //Exemple amb excepcio "VendaBuidaException":
         Venda client2 = new Venda();
 
         client2.calcularTotal();
 
         System.out.println("----------------------------------------------------------------");
 
-        //Exemple exeception "ArrayIndexOutOfBoundsException" personalitzada.
+        //Exemple excepcio Array: "ArrayIndexOutOfBoundsException":
+
+        int[] exemple = {1,2,3};
+        try {
+            System.out.println(exemple[5]);
+        }catch (ArrayIndexOutOfBoundsException e){
+            System.out.println("Index de exemple fora de rang. " + e.getMessage());
+        }
+
+        System.out.println("----------------------------------------------------------------");
+
+        //Exemple exeception personalitzada en ArrayList "IndexOutOfBoundsException".
 
         try {
            Producte producteNotFound = client1.getProductes().get(4);
-            System.out.println("Ticket error:"+ producteNotFound.getNom() + producteNotFound.getPreu());
-        }catch (Exception e){
-            System.out.println("Producte no trobat." + e.getMessage());
-        } throw new ArrayIndexOutOfBoundsException ("Mostrar error pantalla:"); //Part opcional per mostrar el error a consola.
-
-
-
-
+            System.out.println("Ticket error: "+ producteNotFound.getNom() + producteNotFound.getPreu());
+        }catch (IndexOutOfBoundsException  e){
+            System.out.println("Producte no trobat. " + e.getMessage());
+        }
 
     }
 }
