@@ -8,8 +8,6 @@ public class Main {
 
         Venda client1 = new Venda();
 
-        //Exemple funcional:
-
         client1.afegirProducte(new Producte("Pomes fuji", 1.38));
         client1.afegirProducte(new Producte("Safata pollastre", 2.87));
         client1.afegirProducte(new Producte("Yogurt", 1.30));
@@ -19,14 +17,11 @@ public class Main {
 
         System.out.println("----------------------------------------------------------------");
 
-        //Exemple amb excepcio "VendaBuidaException":
         Venda client2 = new Venda();
 
         client2.calcularTotal();
 
         System.out.println("----------------------------------------------------------------");
-
-        //Exemple excepcio Array: "ArrayIndexOutOfBoundsException":
 
         int[] exemple = {1,2,3};
         try {
@@ -36,8 +31,6 @@ public class Main {
         }
 
         System.out.println("----------------------------------------------------------------");
-
-        //Exemple exeception personalitzada en ArrayList "IndexOutOfBoundsException".
 
         try {
            Producte producteNotFound = client1.getProductes().get(4);
