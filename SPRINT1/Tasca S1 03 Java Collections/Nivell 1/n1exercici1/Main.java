@@ -31,14 +31,20 @@ public class Main {
         System.out.println("----------------------------------------------------------------");
 
         HashSet<Month> monthHashSet = new HashSet<>(months);
+        monthHashSet.add(august);
 
-        for (Month month : monthHashSet) {
-            System.out.println("- " + month.getName());
+        //For:
+        for (Month monthSet : monthHashSet) {
+            System.out.println(monthSet.getName());
         }
 
-        Iterator<Month> it = monthHashSet.iterator();
-        while (it.hasNext()) {
-            System.out.println(it.next());
+        System.out.println("----------------------------------------------------------------");
+
+
+        //Iterator:
+        Iterator<Month> iteratorList = monthHashSet.iterator();
+        while (iteratorList.hasNext()) {
+            System.out.println(iteratorList.next());
         }
     }
 }

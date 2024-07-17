@@ -22,6 +22,6 @@ public class main {
         }
 
         System.out.println("Ascendening order: " + list1 +
-                "\n Descending order: " + list2);
+                "\nDescending order: " + list2);
     }
 }
