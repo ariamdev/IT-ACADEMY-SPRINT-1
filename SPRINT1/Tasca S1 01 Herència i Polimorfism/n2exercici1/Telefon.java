@@ -24,6 +24,7 @@ public class Telefon {
 		this.model = model;
 	}
 
+	@Override
 	public String trucar(String numTelf) { 
 		return "S'está trucant al número " + numTelf;
 	}
