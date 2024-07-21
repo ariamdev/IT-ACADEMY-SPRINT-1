@@ -10,6 +10,7 @@ public class InstrumentdeCorda extends Instruments {
         System.out.println("Està sonant un instrument de corda");
     }
 
+    @Override
     public String toString() {
         return "Aquest és un instrument de corda anomenat " + super.getNom() + " amb un preu de " + super.getPreu() + " €.";
     }
