@@ -11,7 +11,7 @@ public class InstrumentdePercussio extends Instruments {
         System.out.println("Està sonant un instrument de percussió");
     }
 
-
+@Override
     public String toString() {
         return "Aquest és un instrument de percussió anomenat " + super.getNom() + " amb un preu de " + super.getPreu() + " €.";
     }
