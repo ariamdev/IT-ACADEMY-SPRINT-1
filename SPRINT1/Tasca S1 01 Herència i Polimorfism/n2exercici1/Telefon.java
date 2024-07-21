@@ -1,8 +1,6 @@
 package n2exercici1;
 
 public class Telefon {
-	//atributs marca i model, i el mètode trucar(). Aquest mètode ha de rebre un String amb un número de telèfon. 
-	//El mètode ha de mostrar per consola un missatge dient que s’està trucant al número rebut per paràmetre. 
 	
 	private String marca;
 	private String model;
@@ -25,9 +23,9 @@ public class Telefon {
 	public void setModel(String model) {
 		this.model = model;
 	}
-	
+
 	public String trucar(String numTelf) { 
-		return "S'está trucant al número " + numTelf; //Recibe el número como parametro.??
+		return "S'está trucant al número " + numTelf;
 	}
 	
 }
