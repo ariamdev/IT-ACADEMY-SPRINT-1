@@ -12,12 +12,10 @@ public abstract class Instruments {
 
     {
         System.out.println("Bloc d'inicializació.");
-        //Se ejecuta tantas veces se instancie el objeto instrumento.
     }
 
     static {
         System.out.println("Bloc estàtic");
-        //carga la clase,solo una vez al principio.
     }
 
     public String getNom () {
@@ -38,6 +36,11 @@ public abstract class Instruments {
     public static void metodeEstatic () {
         System.out.println("Mètode estàtic.");
     }
+
+    @Override
+	public String toString() {
+		return "Instrument: " + this.nom + " Preu: " + this.preu;
+	}
 
     abstract void tocar();
 }
