@@ -2,9 +2,9 @@ package n1exercici2;
 
 public class Cotxe {
 	
-	static final String marca = "Seat"; //Static (común) y final (no se puede cambiar).
-	static String model = "panda"; //Static (comun pertenece a la clase)
-	final int potencia = 140; //final (no se podrá cambiar)
+	private static final String marca = "Seat";
+	private static String model = "panda"; 
+	private final int potencia = 140; 
 		
 	
 	public Cotxe() {
