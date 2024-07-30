@@ -17,12 +17,11 @@ public class Main {
             if (directory.exists() && directory.isDirectory() && directory.canRead()) {
                 System.out.println("Valid directory path. ");
                 File[] order = directory.listFiles();
-                Arrays.sort(order);
                 Arrays.stream(order).sorted().forEach(System.out::println);
             } else {
-                throw new FileNotFoundException("Error directory not found.");
+                throw new IllegalArgumentException ("Error directory not found.");
             }
-        } catch (FileNotFoundException e) {
+        } catch (IllegalArgumentException  e) {
             System.err.println("Error directory not found. " + e);
         }
 

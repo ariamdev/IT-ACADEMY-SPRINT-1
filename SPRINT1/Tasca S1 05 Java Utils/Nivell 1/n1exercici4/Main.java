@@ -12,6 +12,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         startProgram();
+        sc.close();
 
     }
 
@@ -29,22 +30,17 @@ public class Main {
                 case 1:
                     System.out.println("Introduce the directory path: ");
                     File directory = new File(sc.next());
-                        try {
-                            if (directory.exists() && directory.isDirectory() && directory.canRead()) {
-                                System.out.println("Valid directory path. ");
-                                String saveFile = "directoryFile.txt";
-                                FileWriter save = new FileWriter(saveFile);
-                                directoryList(directory, save);
-                                System.out.println("The file " + saveFile + " has been saved successfully.");
-                                save.close();
-                            } else {
-                                throw new FileNotFoundException("Error directory not found.");
-                            }
-                        } catch (IOException e) {
-                            System.err.println("Error directory not save. " + e);
+                    if (directory.exists() && directory.isDirectory() && directory.canRead()) {
+                        System.out.println("Valid directory path. ");
+                        String saveFile = "directoryFile.txt";
+                        try (FileWriter save = new FileWriter(saveFile)) {
+                            directoryList(directory, save);
                         }
-                        sc.close();
-                        break;
+                        System.out.println("The file " + saveFile + " has been saved successfully.");
+                    } else {
+                        throw new FileNotFoundException("Error directory not found.");
+                    }
+                    break;
                     case 2:
                         System.out.println("Introduce the directory path of the .txt file: ");
                         String filePath = sc.next();
@@ -56,7 +52,6 @@ public class Main {
                 }
 
         } while (opt != 2);
-        sc.close();
     }
 
     public static void directoryList(File directory, FileWriter save) throws IOException{
