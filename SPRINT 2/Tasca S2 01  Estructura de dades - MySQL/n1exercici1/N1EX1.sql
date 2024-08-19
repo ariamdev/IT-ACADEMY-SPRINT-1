@@ -2,7 +2,7 @@
 -- ÓPTICA "CUL D'AMPOLLA
 ---------------------------------------------------------------------------------------------------------
 
-CREATE DATABASE Optica;
+CREATE DATABASE optica;
 
 CREATE TABLE address (
   `address_id` int NOT NULL AUTO_INCREMENT,
