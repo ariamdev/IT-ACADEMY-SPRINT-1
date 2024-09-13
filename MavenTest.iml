@@ -4,6 +4,9 @@
     <content url="file://$MODULE_DIR$" dumb="true">
       <sourceFolder url="file://$MODULE_DIR$/SPRINT 2/Tasca S2 01  Estructura de dades - MySQL" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SPRINT 2/Tasca S2 02 MySQL queries" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SPRINT 2/Tasca S2 03  Estructura de dades - MongoDB" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SPRINT 2/Nivell 1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SPRINT 2/Tasca S2 04 MongoDB queries" isTestSource="false" />
     </content>
   </component>
 </module>
