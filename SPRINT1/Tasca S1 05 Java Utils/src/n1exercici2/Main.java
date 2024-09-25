@@ -1,0 +1,50 @@
+package n1exercici2;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Please, introduce the directory path to order: ");
+        File directory = new File(sc.next());
+
+        try {
+            if (directory.exists() && directory.isDirectory() && directory.canRead()) {
+                System.out.println("Valid directory path. ");
+                directoryList(directory);
+            } else {
+                throw new FileNotFoundException("Error directory not found.");
+            }
+        } catch (FileNotFoundException e) {
+            System.err.println("Error directory not found. " + e);
+        }
+
+        sc.close();
+    }
+
+    public static void directoryList(File directory){
+
+        File [] listDirectory = directory.listFiles();
+
+        if (listDirectory != null) {
+            Arrays.sort(listDirectory);
+            for (File order : listDirectory) {
+                SimpleDateFormat formatDate = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+                String date = formatDate.format(order.lastModified());
+
+                String type = order.isDirectory() ? "D" : "F";
+                System.out.println(type + " - " + order.getName() + " Last modified: " + date);
+
+                if (order.isDirectory()) {
+                    directoryList(order);
+                }
+            }
+        }
+    }
+}
