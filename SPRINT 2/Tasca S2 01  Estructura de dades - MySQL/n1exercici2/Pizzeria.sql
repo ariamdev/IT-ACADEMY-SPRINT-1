@@ -1,8 +1,3 @@
--- MySQL dump 10.13  Distrib 8.0.38, for Win64 (x86_64)
---
--- Host: 127.0.0.1    Database: pizzeria
--- ------------------------------------------------------
--- Server version	9.0.1
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -168,7 +163,6 @@ CREATE TABLE `orders` (
   `hamburger_qty` int DEFAULT NULL,
   `drink_qty` int DEFAULT NULL,
   `total_price` float NOT NULL,
-  `product_id` int DEFAULT NULL,
   `store_id` int DEFAULT NULL,
   `delivery_employee` int DEFAULT NULL,
   PRIMARY KEY (`order_id`),

@@ -9,12 +9,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        try(Scanner sc = new Scanner(System.in)) {
 
         System.out.println("Please, introduce the directory path to order: ");
         File directory = new File(sc.next());
 
-        try {
             if (directory.exists() && directory.isDirectory() && directory.canRead()) {
                 System.out.println("Valid directory path. ");
                 directoryList(directory);
@@ -25,7 +24,6 @@ public class Main {
             System.err.println("Error directory not found. " + e);
         }
 
-        sc.close();
     }
 
     public static void directoryList(File directory){

@@ -1,10 +1,4 @@
-CREATE DATABASE  IF NOT EXISTS `youtube` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `youtube`;
--- MySQL dump 10.13  Distrib 8.0.38, for Win64 (x86_64)
---
--- Host: 127.0.0.1    Database: youtube
--- ------------------------------------------------------
--- Server version	9.0.1
+
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -226,6 +220,7 @@ CREATE TABLE `users_subscriptions` (
   `user_subscription_ID` int NOT NULL AUTO_INCREMENT,
   `user_id` int NOT NULL,
   `channel_id` int NOT NULL,
+  `register_date` datetime DEFAULT NULL,
   PRIMARY KEY (`user_subscription_ID`),
   KEY `users_subscriptions_ibfk_1` (`user_id`),
   KEY `users_subscriptions_ibfk_2` (`channel_id`),
@@ -308,6 +303,62 @@ LOCK TABLES `videos` WRITE;
 /*!40000 ALTER TABLE `videos` DISABLE KEYS */;
 /*!40000 ALTER TABLE `videos` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Table structure for table `videos_comment`
+--
+
+DROP TABLE IF EXISTS `videos_comment`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `videos_comment` (
+  `videos_comment_id` int NOT NULL AUTO_INCREMENT,
+  `video_id` int DEFAULT NULL,
+  `comment_id` int DEFAULT NULL,
+  PRIMARY KEY (`videos_comment_id`),
+  KEY `video_id` (`video_id`),
+  KEY `comment_id` (`comment_id`),
+  CONSTRAINT `videos_comment_ibfk_1` FOREIGN KEY (`video_id`) REFERENCES `videos` (`video_id`),
+  CONSTRAINT `videos_comment_ibfk_2` FOREIGN KEY (`comment_id`) REFERENCES `comments` (`comment_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `videos_comment`
+--
+
+LOCK TABLES `videos_comment` WRITE;
+/*!40000 ALTER TABLE `videos_comment` DISABLE KEYS */;
+/*!40000 ALTER TABLE `videos_comment` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `videos_tag`
+--
+
+DROP TABLE IF EXISTS `videos_tag`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `videos_tag` (
+  `videos_tag_id` int NOT NULL AUTO_INCREMENT,
+  `video_id` int DEFAULT NULL,
+  `tag_id` int DEFAULT NULL,
+  PRIMARY KEY (`videos_tag_id`),
+  UNIQUE KEY `video_id` (`video_id`),
+  UNIQUE KEY `tag_id` (`tag_id`),
+  CONSTRAINT `videos_tag_ibfk_1` FOREIGN KEY (`video_id`) REFERENCES `videos` (`video_id`),
+  CONSTRAINT `videos_tag_ibfk_2` FOREIGN KEY (`tag_id`) REFERENCES `tag` (`tag_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `videos_tag`
+--
+
+LOCK TABLES `videos_tag` WRITE;
+/*!40000 ALTER TABLE `videos_tag` DISABLE KEYS */;
+/*!40000 ALTER TABLE `videos_tag` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -318,4 +369,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-08-22 11:59:04
+-- Dump completed on 2024-09-30 13:20:25
