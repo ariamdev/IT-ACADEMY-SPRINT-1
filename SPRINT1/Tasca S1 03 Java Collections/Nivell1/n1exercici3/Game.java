@@ -12,7 +12,7 @@ public class Game {
 
         HashMap<String, String> contriesCapitals = new HashMap<String, String>();
 
-        try (FileReader countries = new FileReader("C:/Users/ainoa/Desktop/Programacion/Java/countries.txt")) {
+        try (FileReader countries = new FileReader("Nivell1/n1exercici3/countries.txt")) {
             BufferedReader br = new BufferedReader(countries);
             String line;
             while ((line = br.readLine()) != null) {
@@ -76,11 +76,11 @@ public class Game {
                 "Final score: " + score);
 
         saveScore(name, score);
-        System.out.println("Your score has been saved to classificacio.txt");
+        System.out.println("Your score has been saved to ranking.txt");
     }
 
     public static void saveScore(String name, int score) throws IOException {
-        FileWriter writer = new FileWriter("classificacio.txt", true);
+        FileWriter writer = new FileWriter("Nivell1/n1exercici3/ranking.txt", true);
         writer.write("Player " + name + "Score: " + score + "\n");
         writer.close();
     }

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 
-public class Main {
+public class main_n1 {
     public static void main(String[] args) {
 
         ArrayList<Month> months = new ArrayList<>();
@@ -24,18 +24,29 @@ public class Main {
 
         months.add(7, august);
 
+        System.out.println("Arraylist: ");
+        int order = 1;
         for (Month month : months) {
-            System.out.println(month);
+            System.out.println(order + ". " + month);
+            order++;
         }
 
         System.out.println("----------------------------------------------------------------");
 
         HashSet<Month> monthHashSet = new HashSet<>(months);
         monthHashSet.add(august);
+        System.out.println("No duplicated months: " + monthHashSet);
+        System.out.println("Same size: " + monthHashSet.size());
+
+
+        System.out.println("----------------------------------------------------------------");
 
         //For:
+        System.out.println("Hashset don't follow any order: ");
+        order = 1;
         for (Month monthSet : monthHashSet) {
-            System.out.println(monthSet.getName());
+            System.out.println(order + ". " + monthSet.getName());
+            order++;
         }
 
         System.out.println("----------------------------------------------------------------");
@@ -43,8 +54,11 @@ public class Main {
 
         //Iterator:
         Iterator<Month> iteratorList = monthHashSet.iterator();
+        System.out.println("Iterator: ");
+        order = 1;
         while (iteratorList.hasNext()) {
-            System.out.println(iteratorList.next());
+            System.out.println(order + ". " + iteratorList.next().getName());
+            order++;
         }
     }
 }
