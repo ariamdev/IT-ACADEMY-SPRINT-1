@@ -18,7 +18,7 @@ public class Main {
                 System.out.println("Valid directory path. ");
                 directoryList(directory);
             } else {
-                throw new IllegalArgumentException("Error directory not found.");
+                System.out.println("Error directory not found.");
             }
         } catch (IllegalArgumentException e) {
             System.err.println("Error directory not found. " + e);

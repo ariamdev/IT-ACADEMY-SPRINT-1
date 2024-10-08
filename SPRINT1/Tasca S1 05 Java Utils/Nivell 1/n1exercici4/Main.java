@@ -7,23 +7,19 @@ import java.util.Scanner;
 
 public class Main {
 
-    static Scanner sc = new Scanner(System.in);
-
     public static void main(String[] args) throws IOException {
-
         startProgram();
-        sc.close();
-
     }
 
-    public static void startProgram () throws IOException {
-
-        int opt = 0;
+    public static void startProgram() throws IOException {
+        Scanner sc = new Scanner(System.in);
+        int opt;
 
         do {
             System.out.println("MENU: \n" +
                     "1. List a directory \n" +
-                    "2. Read a .txt file");
+                    "2. Read a .txt file\n" +
+                    "0. Exit");
             opt = sc.nextInt();
 
             switch (opt) {
@@ -38,25 +34,28 @@ public class Main {
                         }
                         System.out.println("The file " + saveFile + " has been saved successfully.");
                     } else {
-                        throw new FileNotFoundException("Error directory not found.");
+                        System.out.println("Error directory not found.");
                     }
                     break;
-                    case 2:
-                        System.out.println("Introduce the directory path of the .txt file: ");
-                        String filePath = sc.next();
-                        readFile(filePath);
-                        break;
-                    default:
-                        System.err.println("Error. Choose a valid option (1 or 2)");
-                        break;
-                }
+                case 2:
+                    System.out.println("Introduce the directory path of the .txt file: ");
+                    String filePath = sc.next();
+                    readFile(filePath);
+                    break;
+                case 0:
+                    System.out.println("Bye bye.");
+                    break;
+                default:
+                    System.err.println("Error. Choose a valid option (0, 1 or 2)");
+                    break;
+            }
 
-        } while (opt != 2);
+        } while (opt != 0);
+        sc.close();
     }
 
-    public static void directoryList(File directory, FileWriter save) throws IOException{
-
-        File [] listDirectory = directory.listFiles();
+    public static void directoryList(File directory, FileWriter save) throws IOException {
+        File[] listDirectory = directory.listFiles();
 
         if (listDirectory != null) {
             Arrays.sort(listDirectory);
@@ -68,20 +67,20 @@ public class Main {
                 save.write(type + " - " + order.getName() + " Last modified: " + date + "\n");
 
                 if (order.isDirectory()) {
-                    directoryList(order,save);
+                    directoryList(order, save);
                 }
             }
         }
     }
 
-    private static void readFile (String filePath) {
+    private static void readFile(String filePath) {
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String read;
             while ((read = br.readLine()) != null) {
                 System.out.println(read);
             }
         } catch (IOException e) {
-            System.err.println("Error reading the file " + e);
+            System.err.println("Error reading the file. " + e.getMessage());
         }
     }
 }
