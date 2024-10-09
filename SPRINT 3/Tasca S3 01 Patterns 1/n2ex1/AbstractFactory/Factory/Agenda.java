@@ -80,7 +80,7 @@ public class Agenda {
                 valorInt = sc.nextInt();
                 valid = true;
             } catch (InputMismatchException e) {
-                System.err.println("Sisplau, introdueix un número integrer vàlid.");
+                System.err.println("Please, introduce one number of the options.");
                 sc.nextLine();
             }
         } while (!valid);
