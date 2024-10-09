@@ -19,10 +19,10 @@ public class ParkingMenu {
         do {
             System.out.println("Welcome to 'Parking'. \n" +
                     "Which vehicle do you want to rent?\n" +
-                    "1.Car.\n" +
-                    "2.Bicycle.\n" +
-                    "3.Boat.\n" +
-                    "4.AirPlane.\n" +
+                    "1. Car.\n" +
+                    "2. Bicycle.\n" +
+                    "3. Boat.\n" +
+                    "4. AirPlane.\n" +
                     "0.Exit.");
             opt = readInt();
 
@@ -35,7 +35,6 @@ public class ParkingMenu {
                     break;
                 case 4:airplaneRent();
                     break;
-                default: System.out.println("Please select a valid option (0-4)");
             }
 
         } while(opt!=0); {
@@ -52,7 +51,7 @@ public class ParkingMenu {
         String color = sc.next();
 
         Car car = new Car(model,brand,color);
-        System.out.println("You have rented " + car.toString());
+        System.out.println("You have rented " + car.toString() +"\n");
 
         int opt;
         do {
@@ -60,7 +59,7 @@ public class ParkingMenu {
                 "1.Start driving. \n" +
                 "2.Accelerate.\n" +
                 "3.Stop.\n" +
-                "0.Get out of the car\n");
+                "0.Get out of the car.");
         opt = readInt();
             switch (opt) {
                 case 1:
@@ -74,7 +73,7 @@ public class ParkingMenu {
                     break;
             }
         }while (opt!=0);{
-            System.out.println("You got out of the car");
+            System.out.println("You got out of the car.");
         }
     }
 
@@ -85,7 +84,7 @@ public class ParkingMenu {
         String color = sc.next();
 
         Bicycle bicycle = new Bicycle(model,color);
-        System.out.println("You have rented " + bicycle.toString());
+        System.out.println("You have rented " + bicycle.toString() + "\n");
 
         int opt;
         do {
@@ -93,7 +92,7 @@ public class ParkingMenu {
                     "1.Start riding.\n" +
                     "2.Accelerate.\n" +
                     "3.Stop.\n" +
-                    "0.Park the bicycle.\n");
+                    "0.Park the bicycle.");
             opt = readInt();
             switch (opt) {
                 case 1:
@@ -121,7 +120,7 @@ public class ParkingMenu {
         String color = sc.next();
 
         Boat boat = new Boat(model,brand,color);
-        System.out.println("You have rented " + boat.toString());
+        System.out.println("You have rented " + boat.toString() +"\n");
 
         int opt;
         do {
@@ -129,7 +128,7 @@ public class ParkingMenu {
                     "1.Start driving.\n" +
                     "2.Accelerate.\n" +
                     "3.Stop.\n" +
-                    "0.Berth ship\n");
+                    "0.Berth ship.");
             opt = readInt();
             switch (opt) {
                 case 1:
@@ -155,7 +154,7 @@ public class ParkingMenu {
         String manufacturer = sc.next();
 
         Airplane airplane = new Airplane(model,manufacturer);
-        System.out.println("You have rented " + airplane.toString());
+        System.out.println("You have rented " + airplane.toString() +"\n");
 
         int opt;
         do {
@@ -163,7 +162,7 @@ public class ParkingMenu {
                     "1.Start driving.\n" +
                     "2.Accelerate.\n" +
                     "3.Stop.\n" +
-                    "0.Disembark plane. \n");
+                    "0.Disembark plane.");
             opt = readInt();
             switch (opt) {
                 case 1:

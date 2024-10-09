@@ -14,18 +14,18 @@ public class Car implements Vehicle{
     @Override
     public void start() {
         System.out.println("Starting the car engine...\n" +
-                "Car turned on");
+                "Car turned on.\n");
     }
 
     @Override
     public void accelerate() {
-    System.out.println("Accelerating the speed.");
+    System.out.println("Accelerating the speed.\n");
     }
 
     @Override
     public void stop() {
     System.out.println("Braking the car...\n" +
-            "Car stopped.");
+            "Car stopped.\n");
     }
 
     @Override

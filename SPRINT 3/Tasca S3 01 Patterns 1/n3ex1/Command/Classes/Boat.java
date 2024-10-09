@@ -13,18 +13,18 @@ public class Boat implements Vehicle{
     @Override
     public void start() {
         System.out.println("Starting the boat engine...\n" +
-                "Boat turned on.");
+                "Boat turned on.\n");
     }
 
     @Override
     public void accelerate() {
-        System.out.println("Accelerating the speed.");
+        System.out.println("Accelerating the speed.\n");
     }
 
     @Override
     public void stop() {
         System.out.println("Stopping the car...\n" +
-                "Boat stopped.");
+                "Boat stopped.\n");
     }
 
     @Override

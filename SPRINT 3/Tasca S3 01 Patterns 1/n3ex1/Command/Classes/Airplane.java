@@ -11,18 +11,18 @@ public class Airplane implements Vehicle{
     @Override
     public void start() {
         System.out.println("Starting the plane engine...\n" +
-                "Airplane flying.");
+                "Airplane flying.\n");
     }
 
     @Override
     public void accelerate() {
-        System.out.println("Accelerating the speed.");
+        System.out.println("Accelerating the speed.\n");
     }
 
     @Override
     public void stop() {
         System.out.println("Landing the airplane...\n" +
-                "Airplane landed.");
+                "Airplane landed.\n");
     }
 
     @Override
