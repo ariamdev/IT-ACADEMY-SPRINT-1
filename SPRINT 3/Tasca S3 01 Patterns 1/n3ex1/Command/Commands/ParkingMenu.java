@@ -1,9 +1,6 @@
 package n3ex1.Command.Commands;
 
-import n3ex1.Command.Classes.Airplane;
-import n3ex1.Command.Classes.Bicycle;
-import n3ex1.Command.Classes.Boat;
-import n3ex1.Command.Classes.Car;
+import n3ex1.Command.Classes.*;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -11,6 +8,7 @@ import java.util.Scanner;
 public class ParkingMenu {
 
     static Scanner sc = new Scanner(System.in);
+    static Parking parking = new Parking();
 
     public static void menu() {
 
@@ -42,6 +40,13 @@ public class ParkingMenu {
         }
     }
 
+    private static void executeVehicleCommands(Vehicle vehicle) {
+        parking.addCommand(new StartVehicle(vehicle));
+        parking.addCommand(new AccelerateVehicle(vehicle));
+        parking.addCommand(new StopVehicle(vehicle));
+        parking.executeCommands();
+    }
+
     public static void carRent(){
         System.out.println("Write the brand name: ");
         String brand = sc.next();
@@ -59,6 +64,7 @@ public class ParkingMenu {
                 "1.Start driving. \n" +
                 "2.Accelerate.\n" +
                 "3.Stop.\n" +
+                "4.Circulation history.\n" +
                 "0.Get out of the car.");
         opt = readInt();
             switch (opt) {
@@ -70,6 +76,9 @@ public class ParkingMenu {
                     break;
                 case 3:
                     car.stop();
+                    break;
+                case 4:
+                    executeVehicleCommands(car);
                     break;
             }
         }while (opt!=0);{
@@ -92,6 +101,7 @@ public class ParkingMenu {
                     "1.Start riding.\n" +
                     "2.Accelerate.\n" +
                     "3.Stop.\n" +
+                    "4.Circulation history.\n " +
                     "0.Park the bicycle.");
             opt = readInt();
             switch (opt) {
@@ -103,6 +113,9 @@ public class ParkingMenu {
                     break;
                 case 3:
                     bicycle.stop();
+                    break;
+                case 4:
+                    executeVehicleCommands(bicycle);
                     break;
             }
         }while (opt!=0);{
@@ -128,6 +141,7 @@ public class ParkingMenu {
                     "1.Start driving.\n" +
                     "2.Accelerate.\n" +
                     "3.Stop.\n" +
+                    "4.Circulation history.\n" +
                     "0.Berth ship.");
             opt = readInt();
             switch (opt) {
@@ -139,6 +153,9 @@ public class ParkingMenu {
                     break;
                 case 3:
                     boat.stop();
+                    break;
+                case 4:
+                    executeVehicleCommands(boat);
                     break;
             }
         }while (opt!=0);{
@@ -162,6 +179,7 @@ public class ParkingMenu {
                     "1.Start driving.\n" +
                     "2.Accelerate.\n" +
                     "3.Stop.\n" +
+                    "4.Circulation history.\n" +
                     "0.Disembark plane.");
             opt = readInt();
             switch (opt) {
@@ -173,6 +191,9 @@ public class ParkingMenu {
                     break;
                 case 3:
                     airplane.stop();
+                    break;
+                case 4:
+                    executeVehicleCommands(airplane);
                     break;
             }
         }while (opt!=0);{

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Parking {
-    private List<Command> history;
+    private List<Command> history = new ArrayList<Command>();;
 
     public void addCommand(Command command) {
         history.add(command);
