@@ -1,6 +1,5 @@
 package ScapeRoom;
 
-import java.sql.SQLSyntaxErrorException;
 import java.util.*;
 
 public class EnigmaRoom {
