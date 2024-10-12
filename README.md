@@ -4,7 +4,7 @@
 
 Activities carried out during the Reskilling Backend Java Program of IT ACADEMY (Barcelona Activa) in the specialty of Java & Spring Framework.
 
-+ **[1. Heritage and Polymorphism:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2001%20Her%C3%A8ncia%20i%20Polimorfism)** Fundamental OOP Principles.
++ **[1. Inheritance and Polymorphism:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2001%20Her%C3%A8ncia%20i%20Polimorfism)** Fundamental OOP Principles.
 + **[2.Exceptions:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2002%20Exceptions)** Learn how to handle Exceptions to build robust code.
 + **[3.Java Collections:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2003%20Java%20Collections)** Data structures in Java. To become familiar with the handling of Java Collections to know how to use them in subsequent implementations.
 + **[4.Testing libraries:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2004%20Testing)** Learn to work with the JUnit, Hamcrest and AssertJ aseserts libraries, as well as to be introduced to Test Driven Development (TDD).
