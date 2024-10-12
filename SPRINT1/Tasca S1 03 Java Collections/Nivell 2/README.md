@@ -17,6 +17,9 @@ Using the class of the previous program, it creates the implementation needed fo
 
 ---
 
+⭐🌟Nivel 2
+=
+
 #### [ES] 📍 [Ejercicio 1](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2003%20Java%20Collections/Nivell%202/n2exercici1)
 
 Crea una clase llamada Restaurante con dos atributos: nombre(String) y puntuación(int). 
@@ -31,6 +34,9 @@ Implementa los métodos necesarios porque no se puedan introducir objetos Restau
 Utilizando la clase del programa anterior, crea la implementación necesaria porque los objetos de la clase Restaurante estén ordenados por nombre y por puntuación en orden descendente.
 
 ---
+
+⭐🌟Nivell 2
+=
 
 #### [CAT] 📍 [Exercici 1](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2003%20Java%20Collections/Nivell%202/n2exercici1)
 
