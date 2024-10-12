@@ -1,7 +1,14 @@
 
 ![EN](https://img.shields.io/badge/EN-blue.svg) **1. Inheritance and Polymorphism:** 
 =
+
 Fundamental OOP Principles.
+
+
+>**How are the activities organized?**
+>
+>Each theme contains 3 levels of difficulty. The higher the level, the greater the difficulty. Likewise, the same level may contain more than one exercise.
+
 
 :star2: Level 1
 -
@@ -44,12 +51,19 @@ In the application main(), create a Smartphone object and call the above methods
 
 ![ES](https://img.shields.io/badge/ES-red.svg) **1. Herencia y Polimorfismo:** 
 =
-Principios fundamentales de OOP.
+
+Principios fundamentales de POO.
+
+
+>**Como se organizan las actividades?**
+>
+>Cada tema contiene 3 niveles de dificultad. A mayor nivel, mayor dificultad. Así mismo, un mismo nivel puede contener más de un ejercicio. 
+
 
 :star2: Nivel 1
 -
 
-### 📍 [Ejercicio 1](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2001%20Her%C3%A8ncia%20i%20Polimorfism/n1exercici1)
+#### 📍 [Ejercicio 1](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2001%20Her%C3%A8ncia%20i%20Polimorfism/n1exercici1)
 
 En un grupo de música hay diferentes tipos de instrumentos musicales. Hay instrumentos de viento, de cuerda y de percusión.
 
@@ -86,7 +100,14 @@ Desde el *main() de la aplicación, crea un objeto Smartphone y llama a los mét
 
 ![CAT](https://img.shields.io/badge/CAT-yellow.svg) **1. Herència i Polimorfisme:** 
 =
-Principis fonamentals de OOP.
+
+Principis fonamentals de POO.
+
+
+>**Com s'organitzen les activitats?**
+>
+>Cada tema conté 3 nivells de dificultat. A major nivell, major dificultat. Així mateix, un mateix nivell pot contenir més d'un exercici.
+
 
 :star2: Nivell 1
 -
