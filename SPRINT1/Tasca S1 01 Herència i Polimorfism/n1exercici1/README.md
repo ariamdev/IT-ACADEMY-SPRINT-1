@@ -2,7 +2,7 @@
 -
 
 
-#### [EN] 📍 Exercise 1:
+#### [EN] 📍 Exercise 1
 
 
 In a music group there are different types of musical instruments. There are wind, string and percussion instruments.
@@ -15,7 +15,7 @@ The process of loading a class takes place only once. Demonstrates that the load
 
 ---
 
-#### [ES] 📍 Ejercicio 1:
+#### [ES] 📍 Ejercicio 1
 
 En un grupo de música hay diferentes tipos de instrumentos musicales. Hay instrumentos de viento, de cuerda y de percusión.
 
