@@ -28,6 +28,10 @@ It is about the user having to write the name of the capital of the country in q
 
 ---
 
+
+:star2: Nivel 1
+-
+
 #### [ES] 📍 [Ejercicio 1](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2003%20Java%20Collections/Nivell1/n1exercici1)
 
 Crea una clase llamada *Month con un atributo "*name" (que almacenará el nombre del mes del año). 
@@ -55,6 +59,10 @@ El programa pide el nombre del usuario/aria, y después tiene que mostrar un pa�
 Se trata que el usuario/aria tiene que escribir el nombre de la capital del país en cuestión. Si lo acierta se le suma un punto. Esta acción se repite 10 veces. Una vez pedidas las capitales de 10 países de forma aleatoria, entonces se tiene que guardar en un fichero llamado classificacio.txt, el nombre del usuario/aria y su puntuación.
 
 ---
+
+
+:star2: Nivell 1
+-
 
 #### [CAT] 📍 [Exercici 1](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2003%20Java%20Collections/Nivell1/n1exercici1)
 
