@@ -4,13 +4,8 @@
 
 Handling of files, paths and console commands.
 
-Exercises must be executed from the command line and not just from the editor. Creates a file called "readme.txt" to explain the commands to be executed for each exercise. 
-These commands must allow you to compile Java source files (.java) into Java bytecode files (.class) on the one hand, and execute them on the other.
-
->**How are the activities organized?**
->
->Each theme contains 3 levels of difficulty. The higher the level, the greater the difficulty. Likewise, the same level may contain more than one exercise.
-
+>Exercises must be executed from the command line and not just from the editor. Creates a file called "readme.txt" to explain the commands to be executed for each exercise. 
+>These commands must allow you to compile Java source files (.java) into Java bytecode files (.class) on the one hand, and execute them on the other.
 
 :star2:Level 1
 -
@@ -37,12 +32,8 @@ The program must now serialize a Java Object to a .ser file and then deserialize
 
 Tratamiento de archivos, paths y comandos de consola.
 
-Los ejercicios tienen que ser ejecutados desde la línea de pedidos y no únicamente desde el editor. 
-Crea un fichero llamado "*readme.txt" para explicar los pedidos a ejecutar para cada ejercicio. Estos pedidos tienen que permitir compilar archivos fuente de Java (.*java) en archivos de *bytecode de Java (.*class) por un lado, y ejecutarlos de la otra.
-
->**Como se organizan las actividades?**
->
->Cada tema contiene 3 niveles de dificultad. A mayor nivel, mayor dificultad. Así mismo, un mismo nivel puede contener más de un ejercicio.
+>Los ejercicios tienen que ser ejecutados desde la línea de pedidos y no únicamente desde el editor. 
+>Crea un fichero llamado "*readme.txt" para explicar los pedidos a ejecutar para cada ejercicio. Estos pedidos tienen que permitir compilar archivos fuente de >Java (.*java) en archivos de *bytecode de Java (.*class) por un lado, y ejecutarlos de la otra.
 
 :star:Nivel 1
 -
@@ -69,9 +60,7 @@ Ahora el programa tiene que serializar un Objeto Java a un fichero .ser y despu�
 
 Tractament d'arxius, paths i comandos de consola.
 
->**Com s'organitzen les activitats?**
->
->Cada tema conté 3 nivells de dificultat. A major nivell, major dificultat. Així mateix, un mateix nivell pot contenir més d'un exercici.
+>Els exercicis han de ser executats des de la línia de comandes i no únicament des de l'editor. Crea un fitxer anomenat "readme.txt" per explicar les comandes a executar per a cada exercici. Aquestes comandes han de permetre compilar arxius font de Java (.java) en arxius de bytecode de Java (.class) d'una banda, i executar-los de l'altra.
 
 :star:Nivell 1
 -
