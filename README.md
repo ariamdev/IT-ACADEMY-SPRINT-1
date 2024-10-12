@@ -7,7 +7,7 @@ Activities carried out during the Reskilling Backend Java Program of IT ACADEMY 
 + **[1. Inheritance and Polymorphism:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2001%20Her%C3%A8ncia%20i%20Polimorfism)** Fundamental OOP Principles.
 + **[2.Exceptions:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2002%20Exceptions)** Learn how to handle Exceptions to build robust code.
 + **[3.Java Collections:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2003%20Java%20Collections)** Data structures in Java. To become familiar with the handling of Java Collections to know how to use them in subsequent implementations.
-+ **[4.Testing libraries:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2004%20Testing)** Learn to work with the JUnit, Hamcrest and AssertJ aseserts libraries, as well as to be introduced to Test Driven Development (TDD).
++ **[4.Testing libraries:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2004%20Testing)** Learn to work with the JUnit, Hamcrest and AssertJ aseserts libraries.
 + **[5.Java utils:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2005%20Java%20Utils)** Handling of files, paths and console commands.
 + **[6.Generics:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2006%20Generics)** Learn how to handle abstractions with Generics.
 + **[7.Annotations:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2007%20Annotations)** To know how annotations work in Java.
@@ -22,7 +22,7 @@ Serie de actividades realizadas a lo largo del Programa Reskilling Backend Java 
 + **[1.Herencia y Polimorfismo:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2001%20Her%C3%A8ncia%20i%20Polimorfism)** Principios fundamentales de OOP.
 + **[2.Excepciones:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2002%20Exceptions)** Aprender a manejar las Exceptions para construir código robusto.
 + **[3.Java Collections:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2003%20Java%20Collections)** Estructuras de datos en Java. Familiarizarse con el manejo de Java Collections para saber usarlas en las implementaciones posteriores.
-+ **[4.Librerias de testing:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2004%20Testing)** Aprender a trabajar con las bibliotecas de aseserts JUnit, Hamcrest y AssertJ, así como introducirse en el desarrollo dirigido por pruebas (TDD).
++ **[4.Librerias de testing:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2004%20Testing)** Aprender a trabajar con las bibliotecas de aseserts JUnit, Hamcrest y AssertJ.
 + **[5.Java utils:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2005%20Java%20Utils)** Tratamiento de archivos, paths y comandos de consola.
 + **[6.Genéricos:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2006%20Generics)** Aprender a manejar abstracciones con Genéricos.
 + **[7.Annotations:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2007%20Annotations)** Conocer como funcionan las annotations en Java.
@@ -37,7 +37,7 @@ Série d'activitats realitzades al llarg del programa Reskilling Backend Java de
 + **[1.Herència i Polimorfisme:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2001%20Her%C3%A8ncia%20i%20Polimorfism)** Principis fonamentals de OOP.
 + **[2.Excepcions:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2002%20Exceptions)** Aprendre a manejar les Exceptions per a construir codi robust.
 + **[3.Java Collections:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2003%20Java%20Collections)** Estructures de dades a Java. Familiaritzar-se amb el maneig de Java Collections per a saber usar-les en les implementacions posteriors.
-+ **[4.Llibreries de testing:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2004%20Testing)** Aprendre a treballar amb les biblioteques de aseserts JUnit, Hamcrest i AssertJ, així com introduir-se en el desenvolupament dirigit per proves (TDD).
++ **[4.Llibreries de testing:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2004%20Testing)** Aprendre a treballar amb les biblioteques de aseserts JUnit, Hamcrest i AssertJ.
 + **[5.Java utils:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2005%20Java%20Utils)** Tractament d'arxius, paths i comandos de consola.
 + **[6.Genèrics:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2006%20Generics)** Aprendre a manejar abstraccions amb Genèrics.
 + **[7.Annotations:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2007%20Annotations)** Conèixer com funcionen les annotations a Java.
