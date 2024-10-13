@@ -5,6 +5,7 @@
 Fundamental OOP Principles.
 
 
+
 >**How are the activities organized?**
 >
 >Each theme contains 3 levels of difficulty. The higher the level, the greater the difficulty. Likewise, the same level may contain more than one exercise.
