@@ -11,9 +11,8 @@ Learn to work with the JUnit, Hamcrest and AssertJ aseserts libraries.
 >Each theme contains 3 levels of difficulty. The higher the level, the greater the difficulty. Likewise, the same level may contain more than one exercise.
 
 
-:star2: Level 1
+:star2: Level 1 - JUnit
 -
-
 
 #### 📍 [Exercise 1](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2004%20Testing/Nivell%201/n1exercici1)
 
@@ -31,7 +30,8 @@ wide data spectrum and validates if the calculation is correct for 10 predefined
 Create a class with a method that launches an ArrayIndexOutOfBoundsException.
 Verify it with a jUnit test.
 
-⭐🌟Level 2
+
+⭐🌟Level 2 - Hamcrest
 -
 
 #### 📍 [Exercise 1](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2004%20Testing/Test/Nivell%202/n2exercici1)
@@ -52,7 +52,7 @@ The only method to overwrite is featureValueOf (current T), which returns the va
 match method () / matchesSafely (). Use your custom comparator in a test to check if
 the "Mordor" string has a length of 8.
 
-:star::star::star2: Level 3
+:star::star::star2: Level 3 - AssertJ
 -
 
 Create Java classes and/or tests that test them to demonstrate the following:
