@@ -1,4 +1,4 @@
-:star::star::star2: Level 3
+:star::star::star2: Level 3 - AssertJ
 -
 
 Create Java classes and/or tests that test them to demonstrate the following:
