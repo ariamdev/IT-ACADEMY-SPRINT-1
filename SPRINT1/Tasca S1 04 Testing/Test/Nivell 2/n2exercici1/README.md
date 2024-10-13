@@ -1,4 +1,4 @@
-⭐🌟 Level 2
+⭐🌟 Level 2 - Hamcrest
 -
 #### [EN] 📍 Exercise 1
 
