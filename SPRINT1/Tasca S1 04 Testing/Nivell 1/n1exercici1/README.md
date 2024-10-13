@@ -1,5 +1,5 @@
 
-:star2: Level 1 -JUnit
+:star2: Level 1 - JUnit
 -
 
 #### [EN] 📍 Exercise 1
