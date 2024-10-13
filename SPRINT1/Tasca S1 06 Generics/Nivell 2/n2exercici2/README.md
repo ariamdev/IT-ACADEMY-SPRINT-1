@@ -3,7 +3,7 @@
 
 #### [EN] 📍 Exercise 2
 
-Modifie the [previous section](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2006%20Generics/Nivell%202/n2exercici1) so that the arguments of the generic method are a list of arguments of indefinite variable.
+Modify the [previous section](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2006%20Generics/Nivell%202/n2exercici1) so that the arguments of the generic method are a list of arguments of indefinite variable.
 
 ---
 
