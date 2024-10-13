@@ -3,7 +3,7 @@
 
 #### [EN] 📍 Exercise 1
 
-Modifie the previous [exercise](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2006%20Generics/Nivell%201/n1exercici2) so that one of the arguments of the generic method is not generic.
+Modify the previous [exercise](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2006%20Generics/Nivell%201/n1exercici2) so that one of the arguments of the generic method is not generic.
 
 ---
 
