@@ -3,7 +3,7 @@
 
 #### [EN] 📍 Exercise 1
 
-Creates a hierarchy of objects with three classes: Worker, Online Worker and On Site Worker.
+Create a hierarchy of objects with three classes: Worker, Online Worker and On Site Worker.
 
 The working class has the attributes name, surname, price/time, and the method of calculateSalary() 
 that receives by parameter the number of hours worked and multiplies it by price/time. Child classes must overwrite it, using @Override. 
