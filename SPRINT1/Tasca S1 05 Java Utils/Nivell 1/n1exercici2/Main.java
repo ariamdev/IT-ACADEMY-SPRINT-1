@@ -18,7 +18,7 @@ public class Main {
                 System.out.println("Valid directory path. ");
                 directoryList(directory);
             } else {
-                System.out.println("Error directory not found.");
+                System.out.println("Error directory not found or inaccessible.");
             }
         } catch (IllegalArgumentException e) {
             System.err.println("Error directory not found. " + e);
@@ -43,6 +43,8 @@ public class Main {
                     directoryList(order);
                 }
             }
+        }else {
+            System.out.println("There are no elements in this directory.");
         }
     }
 }

@@ -8,24 +8,40 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-       Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Please, introduce the directory path to order: ");
+            File directory = new File(sc.next());
 
-           System.out.println("Please, introduce the directory path to order: ");
-           File directory = new File(sc.next());
-           sc.close();
+            if (directory.exists() && directory.isDirectory() && directory.canRead()) {
+                sortAndPrintFiles(directory);
+            } else {
+                verifyDirectory(directory);
+            }
+        } catch (Exception e) {
+            System.err.println("An unexpected error occurred: " + e.getMessage());
+        }
+    }
 
 
-           if (directory.exists() && directory.isDirectory() && directory.canRead()) {
-               System.out.println("Valid directory path. ");
-               File[] order = directory.listFiles();
-               if (order == null) {
-                   System.err.println("Error directory not found or not accesible.");
-               } else {
-                   Arrays.stream(order).sorted().forEach(file -> System.out.println(file.getName()));
-               }
-           } else {
-               System.err.println("Error directory not found or not accesible.");
-           }
+    private static void sortAndPrintFiles(File directory) {
+        File[] files = directory.listFiles();
 
+        if (files == null) {
+            System.err.println("Error: Directory not found or not accessible.");
+        } else if (files.length == 0) {
+            System.out.println("Directory is empty.");
+        } else {
+            Arrays.stream(files).sorted().forEach(file -> System.out.println(file.getName()));
+        }
+    }
+
+    private static void verifyDirectory(File directory) {
+        if (!directory.exists()) {
+            System.err.println("Error: Directory does not exist!");
+        } else if (!directory.isDirectory()) {
+            System.err.println("Error: Provided path is not a directory!");
+        } else if (!directory.canRead()) {
+            System.err.println("Error: Directory is not readable!");
+        }
     }
 }
