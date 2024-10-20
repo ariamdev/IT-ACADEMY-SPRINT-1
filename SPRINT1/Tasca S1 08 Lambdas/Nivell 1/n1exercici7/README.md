@@ -1,5 +1,3 @@
-🌟 Level 1
--
 
 #### 📍 [Exercise 7]
 With the list of the [previous exercise](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas/Nivell%201/n1exercici6), now sort it in reverse, from longer to shorter chains.
