@@ -1,5 +1,9 @@
+[![EN](https://img.shields.io/badge/EN-blue.svg)](#eng)
+[![ES](https://img.shields.io/badge/ES-red.svg)](#es)
+[![CAT](https://img.shields.io/badge/CAT-yellow.svg)](#cat)
 
-![EN](https://img.shields.io/badge/EN-blue.svg) 5.Java utils
+<a name="eng"></a>
+5. Java utils
 =
 
 Handling of files, paths and console commands.
@@ -27,7 +31,8 @@ The program must now serialize a Java Object to a .ser file and then deserialize
 
 ---
 
-![ES](https://img.shields.io/badge/ES-red.svg) 5.Java utils
+<a name="es"></a>
+5. Java utils
 =
 
 Tratamiento de archivos, paths y comandos de consola.
@@ -55,7 +60,8 @@ Ahora el programa tiene que serializar un Objeto Java a un fichero .ser y despu√
 
 ---
 
-![CAT](https://img.shields.io/badge/CAT-yellow.svg)  5.Java utils
+<a name="cat"></a>
+5. Java utils
 =
 
 Tractament d'arxius, paths i comandos de consola.
