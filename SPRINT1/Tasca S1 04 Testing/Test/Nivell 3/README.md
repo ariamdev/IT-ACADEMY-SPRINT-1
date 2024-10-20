@@ -1,3 +1,8 @@
+[![EN](https://img.shields.io/badge/EN-blue.svg)](#eng)
+[![ES](https://img.shields.io/badge/ES-red.svg)](#es)
+[![CAT](https://img.shields.io/badge/CAT-yellow.svg)](#cat)
+
+<a name="eng"></a>
 :star::star::star2: Level 3 - AssertJ
 -
 
@@ -42,6 +47,7 @@ Creates an empty Optional object. Write the correct assertion to verify that it 
 
 ---
 
+<a name="es"></a>
 :star::star::star2: Nivel 3
 -
 
@@ -82,6 +88,7 @@ Crea un objeto *Optional vacío. Escribe el aserto correcto para verificar que e
 
 ---
 
+<a name="cat"></a>
 ⭐⭐🌟Nivell 3
 -
 
