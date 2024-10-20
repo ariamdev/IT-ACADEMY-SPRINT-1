@@ -1,5 +1,10 @@
+[![EN](https://img.shields.io/badge/EN-blue.svg)](#eng)
+[![ES](https://img.shields.io/badge/ES-red.svg)](#es)
+[![CAT](https://img.shields.io/badge/CAT-yellow.svg)](#cat)
 
-![EN](https://img.shields.io/badge/EN-blue.svg) **3. Java Collections**
+
+<a name="eng"></a>
+**3. Java Collections**
 = 
 
 Data structures in Java. To become familiar with the handling of Java Collections to know how to use them in subsequent implementations.
@@ -56,7 +61,8 @@ Using the class of the previous program, it creates the implementation needed fo
 
 ---
 
-![ES](https://img.shields.io/badge/ES-red.svg) **3.Java collections**
+<a name="es"></a>
+**3. Java collections**
 =
 
 Estructuras de datos en Java. Familiarizarse con el manejo de Java Collections para saber usarlas en las implementaciones posteriores.
@@ -115,7 +121,8 @@ Utilizando la clase del programa anterior, crea la implementación necesaria por
 
 ---
 
-![CAT](https://img.shields.io/badge/CAT-yellow.svg) **3.Java collections**
+<a name="cat"></a>
+**3.Java collections**
 =
 
 Estructures de dades a Java. Familiaritzar-se amb el maneig de Java Collections per a saber usar-les en les implementacions posteriors.
