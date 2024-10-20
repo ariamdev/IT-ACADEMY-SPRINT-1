@@ -1,6 +1,3 @@
-🌟 Level 1
--
-
 #### [EN] 📍 Exercise 1
 
 From a list of Strings, write a method that returns a list of all strings containing the letter 'o'. Print the result.
