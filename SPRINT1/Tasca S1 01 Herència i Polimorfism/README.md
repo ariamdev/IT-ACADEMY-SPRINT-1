@@ -1,5 +1,10 @@
 
-**1. Inheritance and Polymorphism:** 
+[![EN](https://img.shields.io/badge/EN-blue.svg)](#eng)
+[![ES](https://img.shields.io/badge/ES-red.svg)](#es)
+[![CAT](https://img.shields.io/badge/CAT-yellow.svg)](#cat)
+
+<a name="eng"></a>
+**1. Inheritance and Polymorphism:**
 =
 
 Fundamental OOP Principles.
@@ -49,8 +54,8 @@ The takeaphoto() method must show by console: “Taking a photo” and the alarm
 In the application main(), create a Smartphone object and call the above methods.
 
 
-
-![ES](https://img.shields.io/badge/ES-red.svg) **1. Herencia y Polimorfismo:** 
+<a name="es"></a>
+ **1. Herencia y Polimorfismo:** 
 =
 
 Principios fundamentales de POO.
@@ -98,8 +103,8 @@ El método fotografiar() tiene que mostrar por consola: “Se está haciendo una
 
 Desde el *main() de la aplicación, crea un objeto Smartphone y llama a los métodos anteriores.
 
-
-![CAT](https://img.shields.io/badge/CAT-yellow.svg) **1. Herència i Polimorfisme:** 
+<a name="cat"></a>
+**1. Herència i Polimorfisme:** 
 =
 
 Principis fonamentals de POO.
