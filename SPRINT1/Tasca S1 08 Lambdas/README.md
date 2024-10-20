@@ -45,23 +45,23 @@ Invoke the interface instance by passing a string and check if the result is cor
 ⭐🌟 Level 2
 -
 
-#### 📍 [Exercise 1]
+#### 📍 [Exercise 1](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas/Nivell%202/n2exercici1)
 Create a list of strings with proper names. 
 Writes a method that returns a list of all strings starting with the letter 'A' and have exactly 3 letters. 
 Print the result. 
 
-#### 📍 [Exercise 2]
+#### 📍 [Exercise 2](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas/Nivell%202/n2exercici2)
 Program a method that returns a comma-separated string, based on a list of Integers.
 Each element must be preceded by letter “e” if the number is even, or by the letter “o” if the number is odd.
 For example, if the entry list is (3, 55, 44), the output must be "o3, o55, e44". Prints the result.
 
-#### 📍 [Exercise 3]
+#### 📍 [Exercise 3](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas/Nivell%202/n2exercici3)
 Create a Functional Interface containing a method called operacio().
 This method must return a float. 
 Inject into the interface created by a lambda, the field of the method,
 so that the operation can be transformed with a sum, a subtraction, a multiplication and a division.
 
-#### 📍 [Exercise 4]
+#### 📍 [Exercise 4](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas/Nivell%202/n2exercici4)
 Create a list containing some text strings and numbers.
 
 Sort by:
@@ -74,7 +74,7 @@ Show only elements that are numeric. (Although they are saved as Strings).
 ⭐⭐🌟 Level 3
 -
 
-#### 📍 [Exercise 1]
+#### 📍 [Exercise 1](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas/Nivell%203/n3exercici1)
 
 Create a "Student" class with attributes: Name, age, course and note.
 
@@ -135,16 +135,16 @@ Invoca la instancia de la interfaz pasándole una cadena y comprueba si el resul
 ⭐🌟 Nivel 2
 -
 
-#### 📍 [Ejercicio 1]
+#### 📍 [Ejercicio 1](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas/Nivell%202/n2exercici1)
 Crea una lista de cadenas con nombres propios. Escribe un método que devuelve una lista de todas las cadenas que empiezan con la letra 'A' (mayúscula) y tienen exactamente 3 letras. Imprime el resultado.
 
-#### 📍 [Ejercicio 2]
+#### 📍 [Ejercicio 2](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas/Nivell%202/n2exercici2)
 Programa un método que devuelve una cadena separada por comas, basada en una lista de Integers. Cada elemento tiene que ir precedido por letra “e” si el número es parejo, o por la letra “o” si el número es impar. Por ejemplo, si la lista de entrada es (3, 55, 44), la salida tiene que ser “o3, o55, e44”. Imprime el resultado.
 
-#### 📍 [Ejercicio 3]
+#### 📍 [Ejercicio 3](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas/Nivell%202/n2exercici3)
 Crea una Functional Interface que contenga un método llamado operacio(). Este método tiene que devolver un float. Inyecta a la interfaz creada mediante una lambda, el cuerpo del método, de forma que se pueda transformar la operación con una suma, un resto, una multiplicación y una división.
 
-#### 📍 [Ejercicio 4]
+#### 📍 [Ejercicio 4](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas/Nivell%202/n2exercici4)
 Crea una lista que contenga algunas cadenas de texto y números.
 
 Ordénalas por:
@@ -157,7 +157,7 @@ Muestra solo los elementos que son numéricos. (Aunque estén guardados como Str
 ⭐⭐🌟 Nivel 3
 -
 
-#### 📍 [Ejercicio 1]
+#### 📍 [Ejercicio 1](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas/Nivell%203/n3exercici1)
 Crea una clase Alumno con los atributos: Nombre, edad, curso y nota.
 
 Llena una lista con 10 alumnos
@@ -216,16 +216,16 @@ Invoca la instància de la interfície passant-li una cadena i comprova si el re
 ⭐🌟 Nivell 2
 -
 
-#### 📍 [Exercici 1]
+#### 📍 [Exercici 1](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas/Nivell%202/n2exercici1)
 Crea una llista de cadenes amb noms propis. Escriu un mètode que retorna una llista de totes les cadenes que comencen amb la lletra 'A' (majúscula) i  tenen exactament 3 lletres. Imprimeix el resultat. 
 
-#### 📍 [Exercici 2]
+#### 📍 [Exercici 2](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas/Nivell%202/n2exercici2)
 Programa un mètode que retorna una cadena separada per comes, basada en una llista d’Integers. Cada element ha d’anar precedit per lletra “e” si el nombre és parell, o per la lletra “o” si el nombre és imparell. Per exemple, si la llista d’entrada és (3, 55, 44), la sortida ha de ser “o3, o55, e44”. Imprimeix el resultat.
 
-#### 📍 [Exercici 3]
+#### 📍 [Exercici 3](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas/Nivell%202/n2exercici3)
 Crea una Functional Interface que contingui un mètode anomenat operacio(). Aquest mètode ha de retornar un float. Injecta a la interfície creada mitjançant una lambda, el cos del mètode, de manera que es pugui transformar l’operació amb una suma, una resta, una multiplicació i una divisió.
 
-#### 📍 [Exercici 4]
+#### 📍 [Exercici 4](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas/Nivell%202/n2exercici4)
 Crea una llista que contingui algunes cadenes de text i nombres.
 
 Ordena-les per:
@@ -238,7 +238,7 @@ Mostra només els elements que són numèrics. (Encara que estiguin guardats com
 ⭐⭐🌟 Nivell 3
 -
 
-#### 📍 [Exercici 1]
+#### 📍 [Exercici 1](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas/Nivell%203/n3exercici1)
 Crea una classe Alumne amb els atributs: Nom, edat, curs i nota.
 
 Omple una llista amb 10 alumnes
