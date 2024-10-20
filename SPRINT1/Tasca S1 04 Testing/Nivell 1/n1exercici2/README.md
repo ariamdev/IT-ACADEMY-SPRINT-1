@@ -1,4 +1,4 @@
-:star2: Level 1 - JUnit
+:star2: JUnit
 -
 
 
