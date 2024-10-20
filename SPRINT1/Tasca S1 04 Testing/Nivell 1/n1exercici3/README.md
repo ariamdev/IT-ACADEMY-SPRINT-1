@@ -1,4 +1,4 @@
-:star2: Level 1
+:star2: JUnit
 -
 
 #### [EN] 📍 Exercise 3
