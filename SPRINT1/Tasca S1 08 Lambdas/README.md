@@ -1,4 +1,9 @@
-![EN](https://img.shields.io/badge/EN-blue.svg) 8.Lambdas
+[![EN](https://img.shields.io/badge/EN-blue.svg)](#eng)
+[![ES](https://img.shields.io/badge/ES-red.svg)](#es)
+[![CAT](https://img.shields.io/badge/CAT-yellow.svg)](#cat)
+
+<a name="eng"></a>
+8. Lambdas
 =
 
 How to handle functional programming with lambdas.
@@ -88,7 +93,8 @@ Shows all students who are in JAVA and are of legal age.
 
 ---
 
-![ES](https://img.shields.io/badge/ES-red.svg)8.Lambdas
+<a name="es"></a>
+8. Lambdas
 =
 
 Aprender a manejar la programación funcional con lambdas.
@@ -170,7 +176,8 @@ Muestra todos los alumnos que hacen JAVA y son mayores de edad.
 
 ---
 
-![cat](https://img.shields.io/badge/cat-yellow.svg)8.Lambdes
+<a name="cat"></a>
+8. Lambdes
 =
 
 Aprendre a manejar la programació funcional amb lambdes.
