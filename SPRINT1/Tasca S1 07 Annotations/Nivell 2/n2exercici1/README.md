@@ -1,5 +1,3 @@
-⭐🌟 Level 2
--
 
 #### [EN] 📍 Exercise 1
 
