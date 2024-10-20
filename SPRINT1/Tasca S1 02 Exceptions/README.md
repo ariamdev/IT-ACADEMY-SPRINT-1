@@ -1,4 +1,10 @@
-![EN](https://img.shields.io/badge/EN-blue.svg) **2.Exceptions**
+[![EN](https://img.shields.io/badge/EN-blue.svg)](#eng)
+[![ES](https://img.shields.io/badge/ES-red.svg)](#es)
+[![CAT](https://img.shields.io/badge/CAT-yellow.svg)](#cat)
+
+
+<a name="eng"></a>
+**2. Exceptions**
 =
 
 How to handle Exceptions to build robust code.
@@ -57,9 +63,8 @@ public static boolean readYesNo(String message), if the user enters "yes", retur
 ~~~
 
 
-
-
-![ES](https://img.shields.io/badge/ES-red.svg) **2.Excepciones**
+<a name="es"></a>
+**2. Excepciones**
 =
 
 Aprender a manejar las Exceptions para construir código robusto.
@@ -116,8 +121,8 @@ public static String leerString(String missatge);
 public static boolean leerSiNo(String missatge),si el usuario/aria introduce “s”, devuelve “true”, si el usuario/aria introduce “n”, devuelve “false”.
 ~~~
 
-
-![CAT](https://img.shields.io/badge/CAT-yellow.svg) **2.Excepcions**
+<a name="cat"></a>
+**2. Excepcions**
 =
 
 Aprendre a manejar les Exceptions per a construir codi robust.
