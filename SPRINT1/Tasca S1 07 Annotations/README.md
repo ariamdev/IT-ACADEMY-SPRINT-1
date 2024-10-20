@@ -1,4 +1,9 @@
-![EN](https://img.shields.io/badge/EN-blue.svg) 7.Annotations
+[![EN](https://img.shields.io/badge/EN-blue.svg)](#eng)
+[![ES](https://img.shields.io/badge/ES-red.svg)](#es)
+[![CAT](https://img.shields.io/badge/CAT-yellow.svg)](#cat)
+
+<a name="eng"></a>
+7. Annotations
 =
 
 To know how annotations work in Java.
@@ -49,8 +54,10 @@ The annotation must receive the directory where the resulting file will be place
 Adds the possibility that the annotation created at the [previous level](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2007%20Annotations/Nivell%202/n2exercici1) is registered by the Virtual Machine at run time. 
 Shows that annotation reading is running using Java Reflection.
 
+---
 
-![ES](https://img.shields.io/badge/ES-red.svg) 7.Annotations 
+<a name="es"></a>
+7. Annotations 
 =
 
 Conocer como funcionan las annotations en Java.
@@ -100,8 +107,10 @@ La anotación tiene que recibir el directorio donde se colocará el fichero resu
 Añade la posibilidad que la anotación creada en el [nivel anterior](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2007%20Annotations/Nivell%202/n2exercici1) sea registrada por la Virtual Machine en tiempo de ejecución. 
 Demuestra que se ejecuta la lectura de la annotation usando Java Reflection.
 
+---
 
-![cat](https://img.shields.io/badge/cat-yellow.svg) 7.Annotations
+<a name="cat"></a>
+7. Annotations
 =
 
 Conèixer com funcionen les annotations a Java.
