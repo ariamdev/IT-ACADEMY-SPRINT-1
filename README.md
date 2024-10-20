@@ -1,6 +1,12 @@
+[![EN](https://img.shields.io/badge/EN-blue.svg)](#eng)
+[![ES](https://img.shields.io/badge/ES-red.svg)](#es)
+[![CAT](https://img.shields.io/badge/CAT-yellow.svg)](#cat)
+
+
 # IT ACADEMY - JAVA & SPRING FRAMEWORK
 
-## ![en](https://img.shields.io/badge/en-blue.svg) Contents Sprint 1:
+<a name="eng"></a>
+## Contents Sprint 1:
 
 Activities carried out during the Reskilling Backend Java Program of IT ACADEMY (Barcelona Activa) in the specialty of Java & Spring Framework.
 
@@ -15,7 +21,8 @@ Activities carried out during the Reskilling Backend Java Program of IT ACADEMY 
 
 ----
 
-## ![es](https://img.shields.io/badge/es-red.svg) Temario Sprint 1:
+<a name="es"></a>
+## Temario Sprint 1:
 
 Serie de actividades realizadas a lo largo del Programa Reskilling Backend Java de IT ACADEMY (Barcelona Activa) en la especialidad de Java & Spring Framework.
 
@@ -30,7 +37,8 @@ Serie de actividades realizadas a lo largo del Programa Reskilling Backend Java 
 
 ----
 
-## ![cat](https://img.shields.io/badge/cat-yellow.svg) Temari Sprint 1:
+<a name="cat"></a>
+## Temari Sprint 1:
 
 Série d'activitats realitzades al llarg del programa Reskilling Backend Java de IT ACADEMY (Barcelona Activa) a l'especialitat de Java & Spring Framework.
 
