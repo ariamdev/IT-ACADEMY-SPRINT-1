@@ -1,5 +1,3 @@
-🌟 Level 1
--
 
 #### [EN] 📍 Exercise 2
 You must do the same as in the [previous point](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas/Nivell%201/n1exercici1), but now, the method must return a list with the Strings that in addition to containing the letter 'o' also have more than 5 letters. Print the result.
