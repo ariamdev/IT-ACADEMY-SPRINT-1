@@ -1,5 +1,3 @@
-🌟 Level 1
--
 
 #### [EN] 📍 Exercise 3
 Create a list of month names of the year. Print all items in the list with a lambda.
