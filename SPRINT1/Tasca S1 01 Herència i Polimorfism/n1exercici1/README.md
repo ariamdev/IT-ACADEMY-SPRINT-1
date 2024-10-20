@@ -1,5 +1,3 @@
-:star2: Level 1
--
 
 
 #### [EN] 📍 Exercise 1
