@@ -1,7 +1,4 @@
 
-:star2: Level 1
--
-
 #### [EN] 📍 Exercise 1
 
 Create a class called "Product" with the attributes name and price, and another class called "Sell". 
