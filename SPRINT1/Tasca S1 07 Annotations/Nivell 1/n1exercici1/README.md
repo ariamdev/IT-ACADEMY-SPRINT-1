@@ -1,6 +1,8 @@
-🌟 Level 1
--
+[![EN](https://img.shields.io/badge/EN-blue.svg)](#eng)
+[![ES](https://img.shields.io/badge/ES-red.svg)](#es)
+[![CAT](https://img.shields.io/badge/CAT-yellow.svg)](#cat)
 
+<a name="eng"></a>
 #### [EN] 📍 Exercise 1
 
 Create a hierarchy of objects with three classes: Worker, Online Worker and On Site Worker.
@@ -20,7 +22,7 @@ constant of the working class Online.
 
 ---
 
-
+<a name="es"></a>
 #### [ES] 📍 Ejercicio 1
 
 Crea una jerarquía de objetos con tres clases: Trabajador, TrabajadorOnline y TrabajadorPresencial.
@@ -40,6 +42,7 @@ que será una constante de la clase TrebajadorOnline.
 
 ----
 
+<a name="cat"></a>
 #### [CAT] 📍 Exercici 1
 
 Crea una jerarquia d’objectes amb tres classes:  Treballador, TreballadorOnline i TreballadorPresencial.
