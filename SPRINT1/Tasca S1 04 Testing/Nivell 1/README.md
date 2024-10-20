@@ -1,4 +1,8 @@
+[![EN](https://img.shields.io/badge/EN-blue.svg)](#eng)
+[![ES](https://img.shields.io/badge/ES-red.svg)](#es)
+[![CAT](https://img.shields.io/badge/CAT-yellow.svg)](#cat)
 
+<a name="eng"></a>
 🌟Level 1 - JUnit
 -
 
@@ -22,6 +26,7 @@ Verify it with a jUnit test.
 
 ---
 
+<a name="es"></a>
 :star2: Nivel 1
 -
 
@@ -46,6 +51,7 @@ Verifica su correcto funcionamiento con un test jUnit.
 
 ---
 
+<a name="cat"></a>
 :star2: Nivell 1
 -
 
