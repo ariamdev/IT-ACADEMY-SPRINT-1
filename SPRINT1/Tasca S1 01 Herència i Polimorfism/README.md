@@ -53,6 +53,7 @@ The takeaphoto() method must show by console: “Taking a photo” and the alarm
 
 In the application main(), create a Smartphone object and call the above methods.
 
+---
 
 <a name="es"></a>
  **1. Herencia y Polimorfismo:** 
@@ -102,6 +103,8 @@ Crea una clase llamada "Smartphone" que sea subclase de "Teléfono" y que a la v
 El método fotografiar() tiene que mostrar por consola: “Se está haciendo una foto” y el método alarma() tiene que mostrar: “Está sonando la alarma”.
 
 Desde el *main() de la aplicación, crea un objeto Smartphone y llama a los métodos anteriores.
+
+---
 
 <a name="cat"></a>
 **1. Herència i Polimorfisme:** 
