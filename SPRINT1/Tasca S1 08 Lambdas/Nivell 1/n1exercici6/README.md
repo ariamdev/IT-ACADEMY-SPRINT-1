@@ -1,5 +1,3 @@
-🌟 Level 1
--
 
 #### [EN] 📍 Exercise 6
 Create a list of numbers and text strings and sorts the list with the shortest to longest strings.
