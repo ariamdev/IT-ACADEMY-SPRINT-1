@@ -1,4 +1,10 @@
-![EN](https://img.shields.io/badge/EN-blue.svg) 4.Testing libraries
+[![EN](https://img.shields.io/badge/EN-blue.svg)](#eng)
+[![ES](https://img.shields.io/badge/ES-red.svg)](#es)
+[![CAT](https://img.shields.io/badge/CAT-yellow.svg)](#cat)
+
+
+<a name="eng"></a>
+4. Testing libraries
 =
 
 Learn to work with the JUnit, Hamcrest and AssertJ aseserts libraries.
@@ -96,7 +102,8 @@ Creates an empty Optional object. Write the correct assertion to verify that it 
 
 ---
 
-![ES](https://img.shields.io/badge/ES-red.svg)  4.Librerias de testing
+<a name="es"></a>
+4. Librerias de testing
 =
 
 Aprender a trabajar con las bibliotecas de aseserts JUnit, Hamcrest y AssertJ.
@@ -189,7 +196,8 @@ Crea un objeto *Optional vacío. Escribe el aserto correcto para verificar que e
 
 ---
 
-![CAT](https://img.shields.io/badge/CAT-yellow.svg) 4.Llibreries de testing
+<a name="cat"></a>
+4. Llibreries de testing
 =
 
 Aprendre a treballar amb les biblioteques de aseserts JUnit, Hamcrest i AssertJ.
