@@ -1,5 +1,5 @@
 
-![EN](https://img.shields.io/badge/EN-blue.svg) **1. Inheritance and Polymorphism:** 
+**1. Inheritance and Polymorphism:** 
 =
 
 Fundamental OOP Principles.
