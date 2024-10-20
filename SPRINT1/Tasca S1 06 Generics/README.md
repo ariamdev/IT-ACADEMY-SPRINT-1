@@ -1,4 +1,9 @@
-![EN](https://img.shields.io/badge/EN-blue.svg) 6.Generics
+[![EN](https://img.shields.io/badge/EN-blue.svg)](#eng)
+[![ES](https://img.shields.io/badge/ES-red.svg)](#es)
+[![CAT](https://img.shields.io/badge/CAT-yellow.svg)](#cat)
+
+<a name="eng"></a>
+6. Generics
 =
 
 Learn how to handle abstractions with Generics.
@@ -48,8 +53,10 @@ The Smartphone class must implement Telephone, and in addition to the call() met
 The Generica class must have two generic methods, the first must receive a limited type of argument by the Telephone interface and the second must receive a limited argument by the Smartphone class. From these two methods he calls the relevant methods of Telephone and Smartphone. 
 In main() of the main class, a Smartphone class object passes to the two generic Generic class methods.
 
+---
 
-![ES](https://img.shields.io/badge/ES-red.svg) 6.Genéricos
+<a name="es"></a>
+6. Genéricos
 =
 
 Aprender a manejar abstracciones con Genéricos.
@@ -101,8 +108,10 @@ La clase Generica tiene que tener dos métodos genéricos, el primero tiene que 
 
 El método limitado por la interfaz Telefono, de la clase Generica, puede llamar al método hacerFotos()?
 
+---
 
-![cat](https://img.shields.io/badge/cat-yellow.svg) 6.Genèrics
+<a name="cat"></a>
+6. Genèrics
 =
 
 Aprendre a manejar abstraccions amb Genèrics.
