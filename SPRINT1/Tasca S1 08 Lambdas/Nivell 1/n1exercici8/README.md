@@ -1,5 +1,3 @@
-🌟 Level 1
--
 
 #### [EN] 📍 Exercise 8
 Create a Functional Interface containing a method called reverse(). 
