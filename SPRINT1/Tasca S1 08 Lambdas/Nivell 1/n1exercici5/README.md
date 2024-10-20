@@ -1,5 +1,3 @@
-🌟 Level 1
--
 
 #### [EN] 📍 Exercise 5
 Create a Functional Interface with a method called getPiValue() that must return a double. 
