@@ -14,7 +14,7 @@ Handling of files, paths and console commands.
 :star2:Level 1
 -
 
-#### 📍 [Exercise 1](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2005%20Java%20Utils/Nivell%201/n1exercici19)
+#### 📍 [Exercise 1](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2005%20Java%20Utils/Nivell%201/n1exercici1)
 Creates a class that alphabetically lists the contents of a directory received by parameter.
 
 #### 📍 [Exercise 2](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2005%20Java%20Utils/Nivell%201/n1exercici2)
