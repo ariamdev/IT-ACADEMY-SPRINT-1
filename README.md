@@ -6,7 +6,7 @@
 # IT ACADEMY - JAVA & SPRING FRAMEWORK
 
 <a name="eng"></a>
-## Contents Sprint 1:
+## 📁 Contents Sprint 1:
 
 Activities carried out during the Reskilling Backend Java Program of IT ACADEMY (Barcelona Activa) in the specialty of Java & Spring Framework.
 
@@ -19,10 +19,12 @@ Activities carried out during the Reskilling Backend Java Program of IT ACADEMY 
 + **[7.Annotations:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2007%20Annotations)** To know how annotations work in Java.
 + **[8.Lambdas:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas)** To learn how to handle functional programming with lambdas.
 
+👩‍🏫 **Addicional:** [Presentation Masterclass Exceptions:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/Masterclass%20Exception) Presentation made in the classroom for the rest of the students of IT Academy as an introduction to the Exceptions.
+  
 ----
 
 <a name="es"></a>
-## Temario Sprint 1:
+## 📁 Temario Sprint 1:
 
 Serie de actividades realizadas a lo largo del Programa Reskilling Backend Java de IT ACADEMY (Barcelona Activa) en la especialidad de Java & Spring Framework.
 
@@ -35,10 +37,12 @@ Serie de actividades realizadas a lo largo del Programa Reskilling Backend Java 
 + **[7.Annotations:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2007%20Annotations)** Conocer como funcionan las annotations en Java.
 + **[8.Lambdas:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas)** Aprender a manejar la programación funcional con lambdas.
 
+👩‍🏫 **Adicional:** [Presentación Masterclass Exceptions:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/Masterclass%20Exception) Presentación realizada en el aula para el resto de alumnos de la IT Academy como introducción a las Exceptions.
+  
 ----
 
 <a name="cat"></a>
-## Temari Sprint 1:
+## 📁 Temari Sprint 1:
 
 Série d'activitats realitzades al llarg del programa Reskilling Backend Java de IT ACADEMY (Barcelona Activa) a l'especialitat de Java & Spring Framework.
 
@@ -50,4 +54,6 @@ Série d'activitats realitzades al llarg del programa Reskilling Backend Java de
 + **[6.Genèrics:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2006%20Generics)** Aprendre a manejar abstraccions amb Genèrics.
 + **[7.Annotations:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2007%20Annotations)** Conèixer com funcionen les annotations a Java.
 + **[8.Lambdes:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas)** Aprendre a manejar la programació funcional amb lambdes.
+
+👩‍🏫 **Adicional:** [Presentació Masterclass Exceptions:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/Masterclass%20Exception) Presentació realitzada a l'aula per a la resta d'alumnes de l'IT Academy com a introducció a les Exceptions.
 
