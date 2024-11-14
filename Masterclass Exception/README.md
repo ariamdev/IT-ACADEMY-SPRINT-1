@@ -5,7 +5,7 @@
 <a name="es"></a>
 # :woman_teacher: Masterclass Introdución a las Exceptions
 
-Presentación realizada en el aula para el resto de alumnos de la IT Academy como introducción a las Exceptions. Esta presentación está realizada en Español.
+Presentación realizada en el aula para el resto de alumnos de la IT Academy como introducción a las Exceptions. 
 
 En esta presentación se profundiza sobre:
 - ¿Qué son las exceptions?
