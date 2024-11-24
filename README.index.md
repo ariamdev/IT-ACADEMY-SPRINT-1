@@ -1,6 +1,5 @@
 [![EN](https://img.shields.io/badge/EN-blue.svg?logo=googletranslate&logoColor=white)](#eng)
-[![ES](https://img.shields.io/badge/ES-red.svg?logo=googletranslate&logoColor=white)](#es)
-[![CAT](https://img.shields.io/badge/CAT-yellow.svg?logo=googletranslate&logoColor=white)](#cat)
+[![ES](https://img.shields.io/badge/ES-red.svg?logo=googletranslate&logoColor=white)](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/blob/main/README.index.es.md)
 
 
 <a name="eng"></a>
@@ -22,6 +21,8 @@ From the basics of object-oriented programming (OOP), such as inheritance and po
 + **[8.Lambdas:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/SPRINT1/Tasca%20S1%2008%20Lambdas)** To learn how to handle functional programming with lambdas.
 
 👩‍🏫 **Addicional:** [Presentation Masterclass Exceptions:](https://github.com/ariamdev/IT-ACADEMY-SPRINT-1/tree/main/Masterclass%20Exception) Presentation made in the classroom for the rest of the students of IT Academy as an introduction to the Exceptions.
+
+---
   
 ### [ 📂 Sprint 2: Database development](https://github.com/ariamdev/IT-ACADEMY-SPRINT-2)
 
@@ -32,6 +33,8 @@ Designing, modeling and querying relational (MySQL) and NoSQL (MongoDB) database
 + **[3. Data structure - MongoDB](https://github.com/ariamdev/IT-ACADEMY-SPRINT-2/tree/main/SPRINT%202/Tasca%20S2%2003%20%20Estructura%20de%20dades%20-%20MongoDB)** Learn how to model NoSQL databases.
 + **[4. MongoDB queries](https://github.com/ariamdev/IT-ACADEMY-SPRINT-2/tree/main/SPRINT%202/Tasca%20S2%2004%20MongoDB%20queries)** Learn how to query a NoSQL database.
 
+---
+
 ### [ 📂 Sprint 3: Patterns](https://github.com/ariamdev/IT-ACADEMY-SPRINT-3)
 
 Design software through advanced structures, which are always established on the basis of patterns, also start working as a team, integrating your developments into collaborative platforms.
@@ -39,6 +42,8 @@ Design software through advanced structures, which are always established on the
 + **[1. Patterns 1](https://github.com/ariamdev/IT-ACADEMY-SPRINT-3/blob/master/src/main/java/SPRINT%203/Tasca%20S3%2001%20Patterns%201/README.md)** Apply the Singelton, Abstract Factory and Command patterns.
 + **[2. Patterns 2](https://github.com/ariamdev/IT-ACADEMY-SPRINT-3/tree/master/src/main/java/SPRINT%203/Tasca%20S3%2002%20Patterns%202)** Apply the Builder, Observer and Callback patterns.
 + **[3. Developers Team](https://github.com/ariamdev/ITACADEMY_SCAPE_ROOM)** Project to work in a team of 3 people, learning Git Flow, applying patterns and also Database (CRUD).
+
+---
 
 ### [ 📂 Sprint 4: Spring Boot](https://github.com/ariamdev/IT-ACADEMY-SPRINT-4)
 
